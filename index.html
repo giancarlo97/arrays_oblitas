@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EXCHANGE</title>
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>SERVICIOS</li>
+                <li>UBICACION</li>
+                <li>QUIENES SOMOS</li>
+
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section>
+            <h1>EXCHANGE</h1>
+        </section>
+           
+        <form class="formulario">
+            <p>Seleccione la moneda a convertir:</p>
+            <input type="radio" name="cambio" id="uno">Dolar
+            <input type="radio" name="cambio" id="dos">Euro
+            <p>Ingrese un monto</p>
+            <input type="number" id="valor" min="1" max="100000">
+            <input type="button" id="cotizador" value="cotizar" onclick="convertir()">
+        </form>
+    
+        <div class="tabla">
+            <input type="button" id="tabla" value="tablita" onclick="tabla()">
+        </div>
+        
+    </main>
+
+    <footer>
+
+        <p> Gracias por visitar nuestra pagina, los esperamos.</p>
+        <p> Visite nuestras redes:</p>
+
+        <p>Powed by Giancarlo</p>
+
+    </footer>
+    
+    <script src="javascript/clase4y5.js"></script>
+    <script src="javascript/clase6y7.js"></script>
+</body>
+</html>
